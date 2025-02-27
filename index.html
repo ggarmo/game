@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concan Offline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Concan Game (Offline Version)</h1>
+    <div id="game-container">
+        <div id="deck">
+            <button onclick="drawCard()">Draw Card</button>
+        </div>
+        <div id="discard-pile">
+            <h3>Discard Pile</h3>
+            <div id="discarded-card"></div>
+        </div>
+        <div id="player-hand">
+            <h3>Your Hand</h3>
+            <div id="hand-cards"></div>
+        </div>
+        <div id="meld-area">
+            <h3>Melds</h3>
+            <div id="meld-cards"></div>
+        </div>
+        <button onclick="endTurn()">End Turn</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
